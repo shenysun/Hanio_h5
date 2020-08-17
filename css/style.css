@@ -28,7 +28,15 @@
 #btnAuto {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
+    width: 80px;
+    margin: 0 0 0 -40px;
+}
+
+#selectDisk {
+    position: absolute;
+    top: 50%;
+    left: 40%;
     width: 80px;
     margin: 0 0 0 -40px;
 }
