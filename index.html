@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汉诺塔</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="towerContainer">
+        <div id="tower1" class="container">
+            <div class="towervert"></div>
+            <div class="towerhoriz"></div>
+        </div>
+        <div id="tower2" class="container">
+            <div class="towervert"></div>
+            <div class="towerhoriz"></div>
+        </div>
+        <div id="tower3" class="container">
+            <div class="towervert"></div>
+            <div class="towerhoriz"></div>
+        </div>
+    </div>
+    <div id="diskContainer"></div>
+    <div id="funcContainer">
+        <button id="btnAuto">自动执行</button>
+        <select name="选择层数" id="selectDisk"></select>
+    </div>
+</body>
+<script src="./dist/GameConst.js"></script>
+<script src="./dist/Tower.js"></script>
+<script src="./dist/Disk.js"></script>
+<script src="./dist/Main.js"></script>
+
+</html>

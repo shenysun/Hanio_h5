@@ -1,0 +1,76 @@
+#towerContainer {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -350px;
+}
+
+#diskContainer {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -350px;
+}
+
+#funcContainer {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: 20px 0 0 -350px;
+}
+
+#btnAuto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    margin: 0 0 0 -40px;
+}
+
+.container {
+    position: absolute;
+    visibility: visible;
+    width: 200px;
+    height: 200px;
+}
+
+.towervert {
+    position: absolute;
+    visibility: visible;
+    border: 1px solid black;
+    background-color: black;
+    left: 98px;
+    top: 0px;
+    width: 2px;
+    height: 200px;
+}
+
+.towerhoriz {
+    position: absolute;
+    visibility: visible;
+    border: 1px solid black;
+    font-size: 1px;
+    background-color: black;
+    left: 0px;
+    top: 200px;
+    width: 200px;
+    height: 2px;
+}
+
+#tower1 {
+    left: 30px;
+}
+
+#tower2 {
+    left: 250px;
+}
+
+#tower3 {
+    left: 470px;
+}

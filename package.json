@@ -1,0 +1,20 @@
+{
+    "name": "hanio_h5",
+    "version": "1.0.0",
+    "description": "汉诺塔演示",
+    "main": "Main.js",
+    "scripts": {
+        "watch": "tsc -w",
+        "test": "lite-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shenysun/Hanio_h5.git"
+    },
+    "author": "shenysun",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shenysun/Hanio_h5/issues"
+    },
+    "homepage": "https://github.com/shenysun/Hanio_h5#readme"
+}
